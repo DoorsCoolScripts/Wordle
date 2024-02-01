@@ -1,4 +1,31 @@
 <!DOCTYPE html>
+
+<script>
+    open("https://doorscoolscripts.github.io/popupchecker/")
+</script>
+
+<script>
+        document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    var isEscape = false;
+    if ("key" in evt) {
+        isEscape = (evt.key === "Escape" || evt.key === "Esc");
+    } else {
+        isEscape = (evt.keyCode === 27);
+    }
+    if (isEscape) {
+        open("https://clever.com/in/bossier/student/portal")
+        const myTimeout = setTimeout(
+           
+      window.onload = function load() {
+        window.close('','_parent','');
+      }
+            , 3)
+    }
+};
+    </script>
+
+
 <html lang="en">
    <head>
       <meta charset="UTF-8">
