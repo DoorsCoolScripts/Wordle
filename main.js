@@ -1244,13 +1244,18 @@ this.wordle.bundle = function(e) {
         return Math.round(t / 864e5)
     }
 
-    function get_my_word_index(e) {
-        var myword_index, s = Ga(e);
+    // function get_my_word_index(e) {
+      // var myword_index, s = Ga(e);
         // choose a random word from the solution list
-        return myword_index = s % SOLUTION_LIST.length,
-        SOLUTION_LIST[Math.floor(Math.random() * SOLUTION_LIST.length)]
-    }
+      //  return myword_index = s % SOLUTION_LIST.length,
+       // SOLUTION_LIST[Math.floor(Math.random() * SOLUTION_LIST.length)]
+    // }
 
+    function get_my_word_index(e) {
+    return "hello";
+}
+
+    
     function Ga(e) {
         return Na(Ha, e)
     }
@@ -2655,3 +2660,4 @@ this.wordle.bundle = function(e) {
     }),
     e
 }({});
+
